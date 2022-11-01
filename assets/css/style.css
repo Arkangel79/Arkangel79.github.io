@@ -14,12 +14,12 @@ body {
 }
 
 a {
-  color: #ffb727;
+  color: #059250;
   text-decoration: none;
 }
 
 a:hover {
-  color: #ffc85a;
+  color: #ebe705e2;
   text-decoration: none;
 }
 
@@ -42,7 +42,7 @@ h6 {
   right: 15px;
   bottom: 15px;
   z-index: 996;
-  background: #ffb727;
+  background: #3527ff;
   width: 40px;
   height: 40px;
   border-radius: 4px;
@@ -56,10 +56,10 @@ h6 {
 }
 
 .back-to-top:hover {
-  background: #ffc550;
+  background: #159e49;
   color: #fff;
 }
-
+/*--Changed the color of the back to top button and hover 11/01*/
 .back-to-top.active {
   visibility: visible;
   opacity: 1;
@@ -81,7 +81,7 @@ h6 {
 
 #header.header-scrolled {
   height: 60px;
-  background: rgba(25, 28, 31, 0.8);
+  background: rgba(9, 0, 6, 0.8);
 }
 
 /*--------------------------------------------------------------
@@ -112,10 +112,10 @@ h6 {
   align-items: center;
   justify-content: space-between;
   padding: 10px 15px;
-  color: #fff;
+  color: rgb(255, 255, 255);
   white-space: nowrap;
   transition: 0.3s;
-  font-size: 12px;
+  font-size: 16px;
   font-family: "Raleway", sans-serif;
   text-transform: uppercase;
   font-weight: 600;
@@ -124,7 +124,7 @@ h6 {
 
 .navbar a i,
 .navbar a:focus i {
-  font-size: 12px;
+  font-size: 16px;
   line-height: 0;
   margin-left: 5px;
 }
@@ -133,7 +133,7 @@ h6 {
 .navbar .active,
 .navbar .active:focus,
 .navbar li:hover>a {
-  color: #ffb727;
+  color: #f41aa4;
 }
 
 .navbar .dropdown ul {
@@ -161,7 +161,7 @@ h6 {
   font-size: 14px;
   text-transform: none;
   font-weight: 400;
-  color: #3b434a;
+  color: #4a3b47;
   letter-spacing: 1px;
 }
 
@@ -172,7 +172,7 @@ h6 {
 .navbar .dropdown ul a:hover,
 .navbar .dropdown ul .active:hover,
 .navbar .dropdown ul li:hover>a {
-  color: #ffb727;
+  color: #f808d8;
 }
 
 .navbar .dropdown:hover>ul {
@@ -323,7 +323,7 @@ h6 {
 
 #hero:before {
   content: "";
-  background: rgba(0, 0, 0, 0.65);
+  background: rgba(0, 0, 0, 0.45);
   position: absolute;
   bottom: 0;
   top: 0;
@@ -341,21 +341,21 @@ h6 {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  padding: 0 15px;
+  padding: 15px;
 }
 
 #hero h1 {
   margin: 0 0 10px 0;
-  font-size: 64px;
+  font-size: 70px;
   font-family: "Satisfy", serif;
-  color: #fff;
+  color: rgb(7, 232, 248);
 }
 
 #hero h2 {
-  color: #eee;
+  color: rgb(192, 234, 244);
   margin-bottom: 50px;
-  font-size: 13px;
-  font-weight: 500;
+  font-size: 20px;
+  font-weight: 400;
   letter-spacing: 1px;
   text-transform: uppercase;
 }
@@ -559,7 +559,7 @@ section {
 .about .content ul i {
   font-size: 16px;
   margin-right: 5px;
-  color: #ffb727;
+  color: #f912c7;
   line-height: 0;
 }
 
@@ -661,7 +661,7 @@ section {
   font-weight: 700;
   margin-top: 20px;
   margin-bottom: 20px;
-  color: #3b434a;
+  color: #f0e104;
 }
 
 .resume .resume-item {
@@ -676,7 +676,7 @@ section {
   font-size: 16px;
   font-weight: 700;
   text-transform: uppercase;
-  color: #ffb727;
+  color: #04500a;
   margin-bottom: 10px;
 }
 
@@ -714,9 +714,9 @@ section {
 }
 
 /*--------------------------------------------------------------
-# My Services
+# My Interests
 --------------------------------------------------------------*/
-.services .icon-box {
+.interests .icon-box {
   padding: 30px;
   position: relative;
   overflow: hidden;
@@ -727,7 +727,7 @@ section {
   border: 1px solid #fff;
 }
 
-.services .icon {
+.interests .icon {
   margin: 0 auto 20px auto;
   padding-top: 17px;
   display: inline-block;
@@ -738,34 +738,34 @@ section {
   background: #fff4df;
 }
 
-.services .icon i {
+.interests .icon i {
   font-size: 36px;
   line-height: 1;
   color: #ffb727;
 }
 
-.services .title {
+.interests .title {
   font-weight: 700;
   margin-bottom: 15px;
   font-size: 18px;
 }
 
-.services .title a {
+.interests .title a {
   color: #111;
   transition: 0.3s;
 }
 
-.services .description {
+.interests .description {
   font-size: 15px;
   line-height: 28px;
   margin-bottom: 0;
 }
 
-.services .icon-box:hover {
+.interests .icon-box:hover {
   border-color: #ffb727;
 }
 
-.services .icon-box:hover .title a {
+.interests .icon-box:hover .title a {
   color: #ffb727;
 }
 
